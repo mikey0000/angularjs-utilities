@@ -88,7 +88,7 @@ var rcMailgunValidDirective = {
             if (!scope.$$phase) scope.$apply();
             
             if (baseInProgressCallback)
-              baseInProgressCallback(error_message);
+              baseInProgressCallback();
           }
           
           
